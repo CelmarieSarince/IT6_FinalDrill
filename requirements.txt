@@ -1,0 +1,22 @@
+GET
+http://127.0.0.1:5000/books
+POST
+{
+  "author": "Maricel Montes",
+  "id": 4,
+  "message": "Book created successfully",
+  "title": "Flask REST API"
+}
+UPDATE - PUT 
+{
+    "author": "John Smith",
+    "id": 4,
+    "title": "Advanced Python Programming"
+}
+***
+{
+  "author": "John Smith",
+  "id": 1,
+  "message": "Book updated successfully",
+  "title": "Advanced Python Programming"
+}
